@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",              // Target JavaScript version
+    "module": "commonjs",         // Module system for Node.js
+    "strict": true,               // Enable all strict type-checking options
+    "outDir": "./dist",           // Output directory for compiled files
+    "esModuleInterop": true,      // Ensures compatibility with non-ESM modules
+    "skipLibCheck": true,         // Skip type checking of declaration files for performance
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],        // The files to include for compilation
+  "exclude": ["node_modules"]     // The directories to exclude from compilation
+}
